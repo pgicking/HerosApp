@@ -19,8 +19,6 @@ class HeroTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.whiteColor()
-
-        //loadSampleHeros()
         
         loadHeros()
         
@@ -49,27 +47,21 @@ class HeroTableViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    // MARK: - Table view data source
-
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return heros.count
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        // Table view cells are reused and should be dequeued using a cell identifier.
         let cellIdentifier = "HeroTableViewCell"
         let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! HeroTableViewCell
 
-        // Configure the cell...
         cell.backgroundColor = UIColor.whiteColor()
         
-        // Fetches the appropriate hero for the data source layout.
         let hero = heros[indexPath.row]
         
         cell.heroName.text = hero.name
