@@ -23,15 +23,13 @@ class HerosAppTests: XCTestCase {
     
     func testHeroInitialization() {
         // Success case.
-        let potentialItem = Hero(name: "Newest meal", portrait: nil)
+        let potentialItem = Hero(name: "Newest hero", portrait: nil)
         XCTAssertNotNil(potentialItem)
         
         // Failure cases.
         let noName = Hero(name: "", portrait: nil)
         XCTAssertNil(noName, "Empty name is invalid")
         
-        let badRating = Hero(name: "Really bad rating", portrait: nil)
-        XCTAssertNotNil(badRating)
     }
     
 }

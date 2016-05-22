@@ -15,6 +15,8 @@
 		2D4FDAD71CF1370700D8813D /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FDAD61CF1370700D8813D /* Hero.swift */; };
 		2D4FDAD81CF1370700D8813D /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FDAD61CF1370700D8813D /* Hero.swift */; };
 		2D4FDAD91CF1370700D8813D /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FDAD61CF1370700D8813D /* Hero.swift */; };
+		2DBFC8921CF13A440089489E /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FDAC41CF11DCB00D8813D /* HeroTableViewCell.swift */; };
+		2DBFC8931CF13A450089489E /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FDAC41CF11DCB00D8813D /* HeroTableViewCell.swift */; };
 		2DF404B91CED44BC00846387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF404B81CED44BC00846387 /* AppDelegate.swift */; };
 		2DF404BB1CED44BC00846387 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF404BA1CED44BC00846387 /* ViewController.swift */; };
 		2DF404BE1CED44BC00846387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF404BC1CED44BC00846387 /* Main.storyboard */; };
@@ -288,6 +290,7 @@
 				2DF404CE1CED44BC00846387 /* HerosAppTests.swift in Sources */,
 				2D4FDACE1CF12E6C00D8813D /* HeroTableViewController.swift in Sources */,
 				2D4FDAD81CF1370700D8813D /* Hero.swift in Sources */,
+				2DBFC8921CF13A440089489E /* HeroTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +301,7 @@
 				2DF404D91CED44BC00846387 /* HerosAppUITests.swift in Sources */,
 				2D4FDACF1CF12E6C00D8813D /* HeroTableViewController.swift in Sources */,
 				2D4FDAD91CF1370700D8813D /* Hero.swift in Sources */,
+				2DBFC8931CF13A450089489E /* HeroTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

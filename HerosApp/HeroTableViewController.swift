@@ -64,7 +64,7 @@ class HeroTableViewController: UITableViewController {
 
         // Configure the cell...
 
-        // Fetches the appropriate meal for the data source layout.
+        // Fetches the appropriate hero for the data source layout.
         let hero = heros[indexPath.row]
         
         cell.heroName.text = hero.name
