@@ -18,6 +18,7 @@ class HeroTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.whiteColor()
 
         loadSampleHeros()
         // Uncomment the following line to preserve selection between presentations
@@ -63,7 +64,8 @@ class HeroTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! HeroTableViewCell
 
         // Configure the cell...
-
+        cell.backgroundColor = UIColor.whiteColor()
+        
         // Fetches the appropriate hero for the data source layout.
         let hero = heros[indexPath.row]
         
@@ -73,6 +75,25 @@ class HeroTableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let vw = UIView()
+        vw.backgroundColor = UIColor.whiteColor()
+        
+        return vw
+    }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath){
+        //place holder code
+        let alertController = UIAlertController(title: "ALERT", message:
+            "Fregg wuz heer", preferredStyle: UIAlertControllerStyle.Alert)
+        alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default,handler: nil))
+        
+        self.presentViewController(alertController, animated: true, completion: nil)
+    
+    }
+
+    
+
 
     /*
     // Override to support conditional editing of the table view.
