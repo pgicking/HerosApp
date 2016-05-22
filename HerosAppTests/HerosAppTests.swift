@@ -21,16 +21,17 @@ class HerosAppTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
-        }
+    func testHeroInitialization() {
+        // Success case.
+        let potentialItem = Hero(name: "Newest meal", portrait: nil)
+        XCTAssertNotNil(potentialItem)
+        
+        // Failure cases.
+        let noName = Hero(name: "", portrait: nil)
+        XCTAssertNil(noName, "Empty name is invalid")
+        
+        let badRating = Hero(name: "Really bad rating", portrait: nil)
+        XCTAssertNotNil(badRating)
     }
     
 }

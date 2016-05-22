@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4FDAC51CF11DCB00D8813D /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FDAC41CF11DCB00D8813D /* HeroTableViewCell.swift */; };
+		2D4FDACD1CF12E6C00D8813D /* HeroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FDACC1CF12E6C00D8813D /* HeroTableViewController.swift */; };
+		2D4FDACE1CF12E6C00D8813D /* HeroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FDACC1CF12E6C00D8813D /* HeroTableViewController.swift */; };
+		2D4FDACF1CF12E6C00D8813D /* HeroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FDACC1CF12E6C00D8813D /* HeroTableViewController.swift */; };
+		2D4FDAD51CF1358000D8813D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4FDAD41CF1358000D8813D /* Default-568h@2x.png */; };
+		2D4FDAD71CF1370700D8813D /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FDAD61CF1370700D8813D /* Hero.swift */; };
+		2D4FDAD81CF1370700D8813D /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FDAD61CF1370700D8813D /* Hero.swift */; };
+		2D4FDAD91CF1370700D8813D /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FDAD61CF1370700D8813D /* Hero.swift */; };
 		2DF404B91CED44BC00846387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF404B81CED44BC00846387 /* AppDelegate.swift */; };
 		2DF404BB1CED44BC00846387 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF404BA1CED44BC00846387 /* ViewController.swift */; };
 		2DF404BE1CED44BC00846387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF404BC1CED44BC00846387 /* Main.storyboard */; };
@@ -34,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D4FDAC41CF11DCB00D8813D /* HeroTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroTableViewCell.swift; sourceTree = "<group>"; };
+		2D4FDACC1CF12E6C00D8813D /* HeroTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroTableViewController.swift; sourceTree = "<group>"; };
+		2D4FDAD41CF1358000D8813D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2D4FDAD61CF1370700D8813D /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 		2DF404B51CED44BC00846387 /* HerosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HerosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF404B81CED44BC00846387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DF404BA1CED44BC00846387 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +89,7 @@
 		2DF404AC1CED44BC00846387 = {
 			isa = PBXGroup;
 			children = (
+				2D4FDAD41CF1358000D8813D /* Default-568h@2x.png */,
 				2DF404B71CED44BC00846387 /* HerosApp */,
 				2DF404CC1CED44BC00846387 /* HerosAppTests */,
 				2DF404D71CED44BC00846387 /* HerosAppUITests */,
@@ -97,12 +110,15 @@
 		2DF404B71CED44BC00846387 /* HerosApp */ = {
 			isa = PBXGroup;
 			children = (
+				2D4FDAD61CF1370700D8813D /* Hero.swift */,
 				2DF404B81CED44BC00846387 /* AppDelegate.swift */,
 				2DF404BA1CED44BC00846387 /* ViewController.swift */,
 				2DF404BC1CED44BC00846387 /* Main.storyboard */,
+				2D4FDAC41CF11DCB00D8813D /* HeroTableViewCell.swift */,
 				2DF404BF1CED44BC00846387 /* Assets.xcassets */,
 				2DF404C11CED44BC00846387 /* LaunchScreen.storyboard */,
 				2DF404C41CED44BC00846387 /* Info.plist */,
+				2D4FDACC1CF12E6C00D8813D /* HeroTableViewController.swift */,
 			);
 			path = HerosApp;
 			sourceTree = "<group>";
@@ -230,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF404C31CED44BC00846387 /* LaunchScreen.storyboard in Resources */,
+				2D4FDAD51CF1358000D8813D /* Default-568h@2x.png in Resources */,
 				2DF404C01CED44BC00846387 /* Assets.xcassets in Resources */,
 				2DF404BE1CED44BC00846387 /* Main.storyboard in Resources */,
 			);
@@ -257,7 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF404BB1CED44BC00846387 /* ViewController.swift in Sources */,
+				2D4FDAC51CF11DCB00D8813D /* HeroTableViewCell.swift in Sources */,
+				2D4FDACD1CF12E6C00D8813D /* HeroTableViewController.swift in Sources */,
 				2DF404B91CED44BC00846387 /* AppDelegate.swift in Sources */,
+				2D4FDAD71CF1370700D8813D /* Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF404CE1CED44BC00846387 /* HerosAppTests.swift in Sources */,
+				2D4FDACE1CF12E6C00D8813D /* HeroTableViewController.swift in Sources */,
+				2D4FDAD81CF1370700D8813D /* Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +296,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF404D91CED44BC00846387 /* HerosAppUITests.swift in Sources */,
+				2D4FDACF1CF12E6C00D8813D /* HeroTableViewController.swift in Sources */,
+				2D4FDAD91CF1370700D8813D /* Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +508,7 @@
 				2DF404DF1CED44BC00846387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DF404E01CED44BC00846387 /* Build configuration list for PBXNativeTarget "HerosAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +517,7 @@
 				2DF404E21CED44BC00846387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DF404E31CED44BC00846387 /* Build configuration list for PBXNativeTarget "HerosAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +526,7 @@
 				2DF404E51CED44BC00846387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
